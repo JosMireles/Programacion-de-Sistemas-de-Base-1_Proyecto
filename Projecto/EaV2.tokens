@@ -1,0 +1,13 @@
+LEXCL=1
+REXCL=2
+LQN=3
+RQN=4
+PUNCT=5
+CONJ=6
+NUMBER=7
+WORD=8
+WS=9
+'¡'=1
+'!'=2
+'¿'=3
+'?'=4
