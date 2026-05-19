@@ -1,0 +1,11 @@
+
+=== ANÁLISIS LÉXICO ===
+Tokens generados: 14
+
+=== ANÁLISIS SINTÁCTICO ===
+AST construido.
+
+=== ANÁLISIS SEMÁNTICO ===
+Sin errores semánticos.
+
+✅ Entrada válida.

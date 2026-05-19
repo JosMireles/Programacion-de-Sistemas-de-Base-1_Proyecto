@@ -1,0 +1,9 @@
+text
+  sentence[1] tipo=declarative punct='.'
+    phrase[1] -> Maria
+      conj -> y
+    phrase[2] -> Juan llegaron 2025
+  sentence[2] tipo=declarative punct='.'
+    phrase[1] -> Carlos
+      conj -> pero
+    phrase[2] -> Ana estudian

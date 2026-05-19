@@ -1,0 +1,51 @@
+{
+  "linea": 1,
+  "columna": 1,
+  "sentences": [
+    {
+      "linea": 1,
+      "columna": 1,
+      "tipo": "declarative",
+      "clause": {
+        "linea": 1,
+        "columna": 1,
+        "phrases": [
+          {
+            "linea": 1,
+            "columna": 1,
+            "terms": [
+              {
+                "linea": 1,
+                "columna": 1,
+                "valor": "El"
+              },
+              {
+                "linea": 1,
+                "columna": 4,
+                "valor": "sistema"
+              },
+              {
+                "linea": 1,
+                "columna": 12,
+                "valor": "procesa"
+              },
+              {
+                "linea": 1,
+                "columna": 20,
+                "valor": "3"
+              },
+              {
+                "linea": 1,
+                "columna": 22,
+                "valor": "entradas"
+              }
+            ]
+          }
+        ],
+        "conjunctions": []
+      },
+      "punctuation": ".",
+      "raw_text": "El sistema procesa 3 entradas."
+    }
+  ]
+}

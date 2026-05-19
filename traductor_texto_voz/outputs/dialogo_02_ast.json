@@ -1,0 +1,97 @@
+{
+  "linea": 1,
+  "columna": 1,
+  "sentences": [
+    {
+      "linea": 1,
+      "columna": 1,
+      "tipo": "declarative",
+      "clause": {
+        "linea": 1,
+        "columna": 1,
+        "phrases": [
+          {
+            "linea": 1,
+            "columna": 1,
+            "terms": [
+              {
+                "linea": 1,
+                "columna": 1,
+                "valor": "Maria"
+              }
+            ]
+          },
+          {
+            "linea": 1,
+            "columna": 9,
+            "terms": [
+              {
+                "linea": 1,
+                "columna": 9,
+                "valor": "Juan"
+              },
+              {
+                "linea": 1,
+                "columna": 14,
+                "valor": "llegaron"
+              },
+              {
+                "linea": 1,
+                "columna": 23,
+                "valor": "2025"
+              }
+            ]
+          }
+        ],
+        "conjunctions": [
+          "y"
+        ]
+      },
+      "punctuation": ".",
+      "raw_text": "Maria y Juan llegaron 2025."
+    },
+    {
+      "linea": 2,
+      "columna": 1,
+      "tipo": "declarative",
+      "clause": {
+        "linea": 2,
+        "columna": 1,
+        "phrases": [
+          {
+            "linea": 2,
+            "columna": 1,
+            "terms": [
+              {
+                "linea": 2,
+                "columna": 1,
+                "valor": "Carlos"
+              }
+            ]
+          },
+          {
+            "linea": 2,
+            "columna": 13,
+            "terms": [
+              {
+                "linea": 2,
+                "columna": 13,
+                "valor": "Ana"
+              },
+              {
+                "linea": 2,
+                "columna": 17,
+                "valor": "estudian"
+              }
+            ]
+          }
+        ],
+        "conjunctions": [
+          "pero"
+        ]
+      },
+      "punctuation": ".",
+      "raw_text": "Carlos pero Ana estudian."
+    }
+  ]
+}

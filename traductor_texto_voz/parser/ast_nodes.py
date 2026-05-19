@@ -1,23 +1,48 @@
-from dataclasses import dataclass, field
-from typing import List
+from dataclasses import dataclass, field, asdict
+from typing import List, Union
+
 
 @dataclass
 class ASTNode:
-    pass
+    linea: int = 1
+    columna: int = 1
 
-@dataclass
-class TextNode(ASTNode):
-    sentences: List["SentenceNode"] = field(default_factory=list)
+    def to_dict(self):
+        return asdict(self)
 
-@dataclass
-class SentenceNode(ASTNode):
-    tipo: str  # 'question', 'exclamation', 'declarative'
-    contenido: List[ASTNode] = field(default_factory=list)
 
 @dataclass
 class WordNode(ASTNode):
-    valor: str
+    valor: str = ""
+
 
 @dataclass
 class NumberNode(ASTNode):
-    valor: str
+    valor: str = ""
+
+
+TermNode = Union[WordNode, NumberNode]
+
+
+@dataclass
+class PhraseNode(ASTNode):
+    terms: List[TermNode] = field(default_factory=list)
+
+
+@dataclass
+class ClauseNode(ASTNode):
+    phrases: List[PhraseNode] = field(default_factory=list)
+    conjunctions: List[str] = field(default_factory=list)
+
+
+@dataclass
+class SentenceNode(ASTNode):
+    tipo: str = ""
+    clause: ClauseNode = field(default_factory=ClauseNode)
+    punctuation: str = ""
+    raw_text: str = ""
+
+
+@dataclass
+class TextNode(ASTNode):
+    sentences: List[SentenceNode] = field(default_factory=list)

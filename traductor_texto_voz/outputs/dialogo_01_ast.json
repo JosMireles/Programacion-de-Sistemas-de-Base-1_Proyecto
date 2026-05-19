@@ -1,0 +1,96 @@
+{
+  "linea": 1,
+  "columna": 1,
+  "sentences": [
+    {
+      "linea": 1,
+      "columna": 1,
+      "tipo": "declarative",
+      "clause": {
+        "linea": 1,
+        "columna": 1,
+        "phrases": [
+          {
+            "linea": 1,
+            "columna": 1,
+            "terms": [
+              {
+                "linea": 1,
+                "columna": 1,
+                "valor": "Hola"
+              },
+              {
+                "linea": 1,
+                "columna": 6,
+                "valor": "mundo"
+              }
+            ]
+          }
+        ],
+        "conjunctions": []
+      },
+      "punctuation": ".",
+      "raw_text": "Hola mundo."
+    },
+    {
+      "linea": 2,
+      "columna": 1,
+      "tipo": "question",
+      "clause": {
+        "linea": 2,
+        "columna": 2,
+        "phrases": [
+          {
+            "linea": 2,
+            "columna": 2,
+            "terms": [
+              {
+                "linea": 2,
+                "columna": 2,
+                "valor": "Como"
+              },
+              {
+                "linea": 2,
+                "columna": 7,
+                "valor": "estas"
+              }
+            ]
+          }
+        ],
+        "conjunctions": []
+      },
+      "punctuation": "?",
+      "raw_text": "¿ Como estas?"
+    },
+    {
+      "linea": 3,
+      "columna": 1,
+      "tipo": "exclamation",
+      "clause": {
+        "linea": 3,
+        "columna": 2,
+        "phrases": [
+          {
+            "linea": 3,
+            "columna": 2,
+            "terms": [
+              {
+                "linea": 3,
+                "columna": 2,
+                "valor": "Buenos"
+              },
+              {
+                "linea": 3,
+                "columna": 9,
+                "valor": "dias"
+              }
+            ]
+          }
+        ],
+        "conjunctions": []
+      },
+      "punctuation": "!",
+      "raw_text": "¡ Buenos dias!"
+    }
+  ]
+}

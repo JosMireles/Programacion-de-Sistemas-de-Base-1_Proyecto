@@ -1,0 +1,106 @@
+{
+  "linea": 1,
+  "columna": 1,
+  "sentences": [
+    {
+      "linea": 1,
+      "columna": 1,
+      "tipo": "declarative",
+      "clause": {
+        "linea": 1,
+        "columna": 1,
+        "phrases": [
+          {
+            "linea": 1,
+            "columna": 1,
+            "terms": [
+              {
+                "linea": 1,
+                "columna": 1,
+                "valor": "Hola"
+              },
+              {
+                "linea": 1,
+                "columna": 6,
+                "valor": "equipo"
+              }
+            ]
+          }
+        ],
+        "conjunctions": []
+      },
+      "punctuation": ".",
+      "raw_text": "Hola equipo."
+    },
+    {
+      "linea": 2,
+      "columna": 1,
+      "tipo": "question",
+      "clause": {
+        "linea": 2,
+        "columna": 2,
+        "phrases": [
+          {
+            "linea": 2,
+            "columna": 2,
+            "terms": [
+              {
+                "linea": 2,
+                "columna": 2,
+                "valor": "Como"
+              },
+              {
+                "linea": 2,
+                "columna": 7,
+                "valor": "avanza"
+              },
+              {
+                "linea": 2,
+                "columna": 14,
+                "valor": "el"
+              },
+              {
+                "linea": 2,
+                "columna": 17,
+                "valor": "proyecto"
+              }
+            ]
+          }
+        ],
+        "conjunctions": []
+      },
+      "punctuation": "?",
+      "raw_text": "¿ Como avanza el proyecto?"
+    },
+    {
+      "linea": 3,
+      "columna": 1,
+      "tipo": "exclamation",
+      "clause": {
+        "linea": 3,
+        "columna": 2,
+        "phrases": [
+          {
+            "linea": 3,
+            "columna": 2,
+            "terms": [
+              {
+                "linea": 3,
+                "columna": 2,
+                "valor": "Todo"
+              },
+              {
+                "linea": 3,
+                "columna": 7,
+                "valor": "listo"
+              }
+            ]
+          }
+        ],
+        "conjunctions": []
+      },
+      "punctuation": "!",
+      "raw_text": "¡ Todo listo!"
+    }
+  ]
+}

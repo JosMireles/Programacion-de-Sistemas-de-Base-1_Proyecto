@@ -1,0 +1,3 @@
+text
+  sentence[1] tipo=declarative punct='.'
+    phrase[1] -> El sistema procesa 3 entradas

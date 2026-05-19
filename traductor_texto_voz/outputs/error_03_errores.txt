@@ -1,0 +1,2 @@
+ERRORES Y ADVERTENCIAS
+[Léxico] L001 - Carácter desconocido: Carácter no reconocido: '@' (línea 1, columna 6)

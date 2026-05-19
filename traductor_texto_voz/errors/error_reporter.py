@@ -1,9 +1,9 @@
-from typing import List
-from .error_types import CompilerError
+from typing import Iterable
+
 
 class ErrorReporter:
     @staticmethod
-    def print_errors(errors: List[CompilerError], warnings: List[CompilerError], show_warnings: bool = True):
+    def print_errors(errors: Iterable, warnings: Iterable, show_warnings: bool = True) -> None:
         if errors:
             print("\n=== ERRORES ===")
             for e in errors:

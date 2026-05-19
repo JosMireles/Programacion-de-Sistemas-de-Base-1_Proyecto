@@ -1,0 +1,7 @@
+text
+  sentence[1] tipo=declarative punct='.'
+    phrase[1] -> Hola mundo
+  sentence[2] tipo=question punct='?'
+    phrase[1] -> Como estas
+  sentence[3] tipo=exclamation punct='!'
+    phrase[1] -> Buenos dias

@@ -1,0 +1,7 @@
+text
+  sentence[1] tipo=declarative punct='.'
+    phrase[1] -> Hola equipo
+  sentence[2] tipo=question punct='?'
+    phrase[1] -> Como avanza el proyecto
+  sentence[3] tipo=exclamation punct='!'
+    phrase[1] -> Todo listo

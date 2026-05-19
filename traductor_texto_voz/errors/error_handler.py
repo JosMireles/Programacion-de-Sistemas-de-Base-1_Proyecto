@@ -1,5 +1,6 @@
 from typing import List
-from .error_types import CompilerError, NivelError, ErrorCode
+from .error_types import CompilerError, ErrorCode, NivelError
+
 
 class ErrorHandler:
     def __init__(self) -> None:
@@ -8,37 +9,21 @@ class ErrorHandler:
 
     @property
     def has_errors(self) -> bool:
-        return len(self.errors) > 0
+        return bool(self.errors)
 
     @property
     def has_warnings(self) -> bool:
-        return len(self.warnings) > 0
+        return bool(self.warnings)
 
-    def add_error(self, error: CompilerError):
+    def add_error(self, error: CompilerError) -> None:
         self.errors.append(error)
-        # Si fuera FATAL podrías lanzar excepción aquí
 
-    def add_warning(self, warning: CompilerError):
+    def add_warning(self, warning: CompilerError) -> None:
         self.warnings.append(warning)
 
-    def report(
-        self,
-        error_code: ErrorCode,
-        mensaje: str,
-        linea: int,
-        columna: int,
-        token=None,
-        contexto=None,
-    ):
-        error = CompilerError(
-            error_codigo=error_code,
-            mensaje=mensaje,
-            linea=linea,
-            columna=columna,
-            token=token,
-            contexto=contexto,
-        )
+    def report(self, error_code: ErrorCode, mensaje: str, linea: int, columna: int, token=None, contexto=None) -> None:
+        item = CompilerError(error_code, mensaje, linea, columna, token, contexto)
         if error_code.nivel == NivelError.WARNING:
-            self.add_warning(error)
+            self.add_warning(item)
         else:
-            self.add_error(error)
+            self.add_error(item)

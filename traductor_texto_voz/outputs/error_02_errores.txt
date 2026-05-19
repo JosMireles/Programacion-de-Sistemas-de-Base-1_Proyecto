@@ -1,0 +1,2 @@
+ERRORES Y ADVERTENCIAS
+[Sintáctico] S002 - Token esperado no encontrado: Se esperaba '!' al final de la exclamación (línea 1, columna 13)
